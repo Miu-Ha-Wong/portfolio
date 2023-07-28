@@ -1,0 +1,173 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.widthContainer {
+  width: 80%;
+  /* background-color: aqua; */
+}
+.introContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.mainTitle {
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #343434;
+}
+/* .horizontal {
+  width: 38%;
+  height: 1px;
+  background-color: #8f8f8f;
+  margin-bottom: 3.5rem;
+  margin-left: 1rem;
+} */
+
+.title {
+  /* font-weight: bold; */
+  font-size: 1rem;
+  color: #343434;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #343434;
+}
+
+.rightContainer {
+  margin-left: 4rem;
+  /* background-color: aqua; */
+  width: 45%;
+}
+
+.description {
+  margin-bottom: 2rem;
+  line-height: 1.8rem;
+  color: #343434;
+}
+
+.catProject {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 25rem;
+}
+.toolConrainer {
+  display: flex;
+  justify-content: center;
+}
+
+.tools {
+  color: white;
+  background-color: #343434;
+  width: 10em;
+  padding: 0.6rem 0.1rem;
+  margin-right: 1.4rem;
+  margin-bottom: 1rem;
+  border: 2px solid #343434;
+  font-weight: bold;
+}
+
+.linkContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.linkDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.link {
+  padding: 0.8rem 1.8rem;
+  border: 1px solid #b4b0ab;
+  margin-right: 0.8rem;
+  cursor: pointer;
+  color: #333333;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: #b4b0ab;
+}
+.linkIcon {
+  width: 2rem;
+}
+
+@media (max-width: 1000px) {
+  .tools {
+    font-size: 0.8rem;
+    width: 10em;
+    padding: 0.6rem 0.1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .introContainer {
+    display: block;
+  }
+  .catProject {
+    width: 100%;
+  }
+  .title {
+    /* font-weight: bold; */
+    font-size: 1.2rem;
+  }
+  .toolConrainer {
+    display: flex;
+    justify-content: center;
+  }
+  .name {
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  .rightContainer {
+    margin-left: 0;
+    /* background-color: aqua; */
+    width: 100%;
+  }
+  .widthContainer {
+    height: 100%;
+  }
+
+  .linkDiv {
+    margin-bottom: 2rem;
+  }
+  .link {
+    width: 10rem;
+  }
+}
+
+@media (max-width: 338px) {
+  .container {
+    height: auto;
+  }
+  .title {
+    /* font-weight: bold; */
+    font-size: 1rem;
+  }
+
+  .name {
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1546px) {
+  .widthContainer {
+    width: 80rem;
+  }
+}

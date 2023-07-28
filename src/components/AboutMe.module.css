@@ -1,0 +1,119 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #b4b0ab;
+}
+.aboutMeContainer {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pofoPic {
+  width: 20rem;
+  margin-left: 2.5rem;
+}
+
+.pofoPicContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pofoPic2 {
+  width: 20rem;
+  display: none;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.mainTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  color: #232323;
+}
+
+/* .horizontal {
+  width: 60%;
+  height: 1px;
+  background-color: #8f8f8f;
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+} */
+
+.greeting {
+  line-height: 2rem;
+  color: #333333;
+
+  padding: 1rem;
+}
+
+.toolLogoContainer {
+  display: flex;
+  justify-content: first baseline;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.toolLogo {
+  margin-right: 3rem;
+}
+
+.jsLogo,
+.htmlLogo,
+.cssLogo {
+  width: 4rem;
+}
+
+.reactLogo {
+  width: 5rem;
+}
+
+@media (max-width: 750px) {
+  .aboutMeContainer {
+    display: block;
+    /* background-color: aqua; */
+  }
+  .pofoPic {
+    display: none;
+  }
+  .pofoPic2 {
+    display: block;
+  }
+  .toolLogo {
+    margin-right: 2rem;
+  }
+  .jsLogo,
+  .htmlLogo,
+  .cssLogo {
+    width: 2rem;
+  }
+
+  .reactLogo {
+    width: 3rem;
+  }
+}
+
+@media (max-width: 338px) {
+  .container {
+    height: auto;
+  }
+  .toolLogo {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 1546px) {
+  .aboutMeContainer {
+    width: 80rem;
+  }
+}

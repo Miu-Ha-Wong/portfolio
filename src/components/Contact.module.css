@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #535353;
+}
+.introContainer {
+  width: 80%;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.mainTitle {
+  margin-bottom: 8rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+/* .horizontal {
+  width: 38%;
+  height: 1px;
+  background-color: #8f8f8f;
+  margin-bottom: 7.5rem;
+  margin-left: 1rem;
+} */
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentTitle {
+  margin-bottom: 0.8rem;
+  color: white;
+}
+
+.contentPoint {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1.3rem;
+  color: white;
+}
+
+.content {
+  text-align: center;
+  line-height: 1.8rem;
+  color: white;
+}
+
+.introButton {
+  cursor: pointer;
+  margin-top: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid #b4b0ab;
+  padding: 0.8rem 3rem;
+  background-color: #b4b0ab;
+}
+
+.toolLogoContainer {
+  margin-top: 3rem;
+  display: none;
+}
+
+.githubLogo,
+.linkedinLogo,
+.instagramLogo,
+.facebookLogo {
+  width: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+@media (min-width: 1546px) {
+  .introContainer {
+    width: 80rem;
+  }
+  .toolLogoContainer {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .toolLogoContainer {
+    display: block;
+  }
+}
