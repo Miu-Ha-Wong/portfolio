@@ -31,7 +31,7 @@ function Header({ setShow }) {
           <FontAwesomeIcon icon={faBars} />
         </div>
         <a
-          href="https://drive.google.com/file/d/1PRWPlmj4a8gsgVEdOo6pECJ79U5VH5w_/view?usp=sharing"
+          href="https://drive.google.com/file/d/1M-6o0FX9GevcQOE8ml7ubiT_OikVCQtq/view?usp=sharing"
           target="_blank"
         >
           <button className={styles.resumeBtn}>Resume</button>
