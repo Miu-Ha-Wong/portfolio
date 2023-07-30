@@ -101,6 +101,7 @@
     border-color: rgb(97, 97, 97);
   }
 }
+
 .btnFadeIn {
   animation: btn 2s;
 }
@@ -112,5 +113,15 @@
   }
   100% {
     opacity: 100%;
+  }
+}
+
+@media (max-width: 533px) {
+  .text {
+    white-space: normal;
+    font-size: 3rem;
+  }
+  .typewriter {
+    width: 100%;
   }
 }
