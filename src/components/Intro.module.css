@@ -20,21 +20,28 @@
   color: #343434;
 }
 
-.introBuild {
-  font-size: 4rem;
-  font-weight: bold;
-  color: #747474;
-}
-.text {
-  display: inline-block;
-}
-
 .introDescript {
   margin-top: 1.5rem;
   font-size: 1.1rem;
   line-height: 1.6rem;
   width: 70%;
   color: #343434;
+}
+
+.fadeIn {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-8%);
+    animation-timing-function: ease;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .introButton {
@@ -51,5 +58,59 @@
 @media (min-width: 1546px) {
   .introContainer {
     width: 80rem;
+  }
+}
+
+.typewriter {
+  width: 42rem;
+}
+.text {
+  display: inline-block;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #747474;
+  overflow: hidden;
+  border-right: 0.1em solid rgb(126, 126, 126);
+  white-space: nowrap;
+  width: 0;
+  margin: 0 auto;
+  letter-spacing: 0.1em;
+  animation: fadeInAndType 3s steps(40, end) 1.2s forwards,
+    blink-caret 0.75s 5s step-end infinite;
+}
+
+.text::after {
+  width: 100%;
+}
+
+@keyframes fadeInAndType {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(97, 97, 97);
+  }
+}
+.btnFadeIn {
+  animation: btn 2s;
+}
+
+@keyframes btn {
+  0% {
+    opacity: 0;
+    animation-timing-function: ease-in-out;
+  }
+  100% {
+    opacity: 100%;
   }
 }
