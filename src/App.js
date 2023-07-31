@@ -7,6 +7,7 @@ import styles from "./App.module.css";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
 import TitleMenu from "./components/TitleMenu";
+import FadeInSection from "./components/FadeInSection";
 
 function App() {
   const [show, setShow] = useState(false);
@@ -17,9 +18,15 @@ function App() {
       <NavSocialMedia />
       <div className={styles.container}>
         <Intro />
-        <AboutMe />
-        <Project />
-        <Contact />
+        <FadeInSection>
+          <AboutMe />
+        </FadeInSection>
+        <FadeInSection>
+          <Project />
+        </FadeInSection>
+        <FadeInSection>
+          <Contact />
+        </FadeInSection>
         {show && <TitleMenu setShow={setShow} />}
       </div>
     </div>

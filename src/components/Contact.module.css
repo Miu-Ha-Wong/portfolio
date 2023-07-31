@@ -82,9 +82,6 @@
   .introContainer {
     width: 80rem;
   }
-  .toolLogoContainer {
-    display: block;
-  }
 }
 
 @media (max-width: 600px) {
