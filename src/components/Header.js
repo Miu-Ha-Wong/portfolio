@@ -9,22 +9,49 @@ function Header({ setShow }) {
     setShow(true);
   };
 
+  const onNavHandler = (position) => {
+    window.scrollTo({
+      top: position,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className={styles.container}>
       <a href="#home">
         <img src={logo} alt="logo" className={styles.logo} />
       </a>
       <div className={styles.rightContainer}>
-        <a href="#home" className={styles.title}>
+        <a
+          className={styles.title}
+          onClick={() => {
+            onNavHandler(0);
+          }}
+        >
           01. Home
         </a>
-        <a href="#about" className={styles.title}>
+        <a
+          className={styles.title}
+          onClick={() => {
+            onNavHandler(850);
+          }}
+        >
           02. About
         </a>
-        <a href="#project" className={styles.title}>
+        <a
+          className={styles.title}
+          onClick={() => {
+            onNavHandler(1750);
+          }}
+        >
           03. Project
         </a>
-        <a href="#contact" className={styles.title}>
+        <a
+          className={styles.title}
+          onClick={() => {
+            onNavHandler(3000);
+          }}
+        >
           04. Contact
         </a>
         <div className={styles.menuIcon} onClick={onShowHandler}>
