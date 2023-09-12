@@ -4,7 +4,7 @@ import AboutMe from "./AboutMe";
 
 function Intro() {
   return (
-    <div id="home" className={styles.container}>
+    <div className={styles.container}>
       <div className={styles.introContainer}>
         <div className={styles.fadeIn}>
           <div className={styles.introFirst}>Hi, my name is</div>

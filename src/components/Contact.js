@@ -7,7 +7,7 @@ import facebook from "../assess/facebook.png";
 
 function Contact() {
   return (
-    <div id="contact" className={styles.container}>
+    <div className={styles.container}>
       <div className={styles.introContainer}>
         <div className={styles.titleContainer}>
           <div className={styles.mainTitle}>04. Contact Me</div>

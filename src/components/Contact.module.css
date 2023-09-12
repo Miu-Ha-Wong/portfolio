@@ -21,13 +21,6 @@
   font-weight: bold;
   color: white;
 }
-/* .horizontal {
-  width: 38%;
-  height: 1px;
-  background-color: #8f8f8f;
-  margin-bottom: 7.5rem;
-  margin-left: 1rem;
-} */
 
 .contentContainer {
   display: flex;
@@ -59,8 +52,16 @@
   margin-top: 3rem;
   font-size: 1rem;
   font-weight: bold;
-  border: 1px solid #b4b0ab;
+  border: none;
   padding: 0.8rem 3rem;
+  background-color: #b4b0ab;
+}
+
+.introButton:hover {
+  background-color: #a4a09c;
+}
+
+.introButton:active {
   background-color: #b4b0ab;
 }
 

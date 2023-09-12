@@ -41,7 +41,7 @@ function Header({ setShow }) {
         <a
           className={styles.title}
           onClick={() => {
-            onNavHandler(1750);
+            onNavHandler(1790);
           }}
         >
           03. Project
@@ -57,12 +57,6 @@ function Header({ setShow }) {
         <div className={styles.menuIcon} onClick={onShowHandler}>
           <FontAwesomeIcon icon={faBars} />
         </div>
-        <a
-          href="https://drive.google.com/file/d/1M-6o0FX9GevcQOE8ml7ubiT_OikVCQtq/view?usp=sharing"
-          target="_blank"
-        >
-          <button className={styles.resumeBtn}>Resume</button>
-        </a>
       </div>
     </div>
   );

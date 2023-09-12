@@ -8,7 +8,7 @@ import link from "../assess/link.png";
 function Project() {
   return (
     <>
-      <div id="project" className={styles.container}>
+      <div className={styles.container}>
         <div className={styles.widthContainer}>
           <div className={styles.titleContainer}>
             <div className={styles.mainTitle}>03. Project </div>

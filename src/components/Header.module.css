@@ -44,11 +44,19 @@
   cursor: pointer;
   font-size: 1rem;
   font-weight: bold;
-  border: 1px solid #535353;
+  border: none;
   padding: 0.7rem 1.8rem;
   border-radius: 0.2rem;
   background-color: #535353;
   color: white;
+}
+
+.resumeBtn:hover {
+  background-color: #393939;
+}
+
+.resumeBtn:active {
+  background-color: #535353;
 }
 
 .logo {

@@ -8,7 +8,7 @@ import html from "../assess/html.png";
 
 function AboutMe() {
   return (
-    <div id="about" className={styles.container}>
+    <div className={styles.container}>
       <div className={styles.aboutMeContainer}>
         <div>
           <div className={styles.background}></div>
